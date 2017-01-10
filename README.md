@@ -3,6 +3,13 @@ What's the difference between a method and scrollBy scrollTo methods described
 
 #不积跬步无以至千里
 View的移动
+
+- mScrollX：表示离视图起始位置的x水平方向的偏移量
+- mScrollY：表示离视图起始位置的y垂直方向的偏移量
+
+分别通过getScrollX() 和getScrollY()方法获得。
+注意：mScrollX和mScrollY指的并不是坐标，而是偏移量。
+
 -
 - scrollTo()
 	是将View中的内容滑动到相应的位置，参考的坐标系远点为parent View的左上角
